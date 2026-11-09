@@ -1,0 +1,244 @@
+{
+ "algorithm": "(G) the normalisation inside the blind ratio search, stated exactly and tested.\n\nAlgorithm actually implemented in the paper's code (exp3e.py):\n  for each candidate ratio r on the grid:\n      z_r   = y1 + r * y2                      (y1,y2 are the two received frames)\n      zn_r  = z_r / sqrt( (1/n) sum_i z_r[i]^2 )          <-- OBSERVED sample power\n      S(r)  = (1/M) sum_j prod_{i in check j} tanh( a * zn_r[i] / 2 ),  a fixed = 5\n  r_hat = argmax_r S(r)\nThe same fixed a and the same form of normalisation is used for every candidate,\nbut the divisor is re-estimated from the data for every candidate, so the map\nr -> S(r) is NOT a monotone reparametrisation of r -> S_unnormalised(r):\nthe normalisation changes the maximiser.  This script measures by how much.\n",
+ "grid": "geomspace(0.1,10,31)",
+ "a": 5.0,
+ "nf": 100000,
+ "rows": [
+  {
+   "gap_db": 0.0,
+   "eb_total_db": 2.5,
+   "rho1": 0.4706585239074744,
+   "rho2": 0.4706585239074744,
+   "N": 100000,
+   "fer": {
+    "rms": 0.06058,
+    "det": 0.05653,
+    "genie": 0.05655,
+    "none": 0.1277,
+    "rms_scaled0.8": 0.05689,
+    "rms_scaled1.25": 0.06629,
+    "oracle": 0.03552,
+    "egc": 0.0355
+   },
+   "logratio": {
+    "rms": {
+     "bias": -1.6880554539966397e-05,
+     "std": 0.33079707622528076
+    },
+    "det": {
+     "bias": -0.00018113205442205071,
+     "std": 0.3007284998893738
+    },
+    "genie": {
+     "bias": -0.00018113205442205071,
+     "std": 0.3007284998893738
+    },
+    "none": {
+     "bias": 0.35412684082984924,
+     "std": 0.5429711937904358
+    },
+    "rms_scaled0.8": {
+     "bias": -0.0003852946392726153,
+     "std": 0.3084281384944916
+    },
+    "rms_scaled1.25": {
+     "bias": 0.00021030791685916483,
+     "std": 0.3637063801288605
+    }
+   },
+   "agree_with_rms": {
+    "rms": 1.0,
+    "det": 0.75708,
+    "genie": 0.75708,
+    "none": 0.14748,
+    "rms_scaled0.8": 0.74007,
+    "rms_scaled1.25": 0.72352
+   },
+   "mean_abs_index_shift_vs_rms": {
+    "rms": 0.0,
+    "det": 0.27203,
+    "genie": 0.27203,
+    "none": 2.35094,
+    "rms_scaled0.8": 0.2825,
+    "rms_scaled1.25": 0.3159
+   }
+  },
+  {
+   "gap_db": 3.0,
+   "eb_total_db": 2.5,
+   "rho1": 0.5422465306891919,
+   "rho2": 0.3725283054975321,
+   "N": 100000,
+   "fer": {
+    "rms": 0.05983,
+    "det": 0.05678,
+    "genie": 0.05678,
+    "none": 0.12521,
+    "rms_scaled0.8": 0.0558,
+    "rms_scaled1.25": 0.06514,
+    "oracle": 0.03493,
+    "egc": 0.07948
+   },
+   "logratio": {
+    "rms": {
+     "bias": -0.01968587189912796,
+     "std": 0.35338401794433594
+    },
+    "det": {
+     "bias": 0.048466045409440994,
+     "std": 0.3176628053188324
+    },
+    "genie": {
+     "bias": 0.048466045409440994,
+     "std": 0.3176628053188324
+    },
+    "none": {
+     "bias": 0.3419075012207031,
+     "std": 0.5357537269592285
+    },
+    "rms_scaled0.8": {
+     "bias": -0.017042502760887146,
+     "std": 0.3291187882423401
+    },
+    "rms_scaled1.25": {
+     "bias": -0.022346127778291702,
+     "std": 0.38766244053840637
+    }
+   },
+   "agree_with_rms": {
+    "rms": 1.0,
+    "det": 0.5824,
+    "genie": 0.5824,
+    "none": 0.07131,
+    "rms_scaled0.8": 0.72691,
+    "rms_scaled1.25": 0.70904
+   },
+   "mean_abs_index_shift_vs_rms": {
+    "rms": 0.0,
+    "det": 0.47905,
+    "genie": 0.47905,
+    "none": 2.36187,
+    "rms_scaled0.8": 0.30046,
+    "rms_scaled1.25": 0.33487
+   }
+  },
+  {
+   "gap_db": 6.0,
+   "eb_total_db": 2.5,
+   "rho1": 0.5869939470615912,
+   "rho2": 0.26308433748051274,
+   "N": 100000,
+   "fer": {
+    "rms": 0.05631,
+    "det": 0.05832,
+    "genie": 0.05832,
+    "none": 0.11991,
+    "rms_scaled0.8": 0.05357,
+    "rms_scaled1.25": 0.06074,
+    "oracle": 0.03502,
+    "egc": 0.35415
+   },
+   "logratio": {
+    "rms": {
+     "bias": -0.04233083128929138,
+     "std": 0.4102902114391327
+    },
+    "det": {
+     "bias": 0.07924874126911163,
+     "std": 0.3693386912345886
+    },
+    "genie": {
+     "bias": 0.07924874126911163,
+     "std": 0.3693386912345886
+    },
+    "none": {
+     "bias": 0.3446262776851654,
+     "std": 0.6006459593772888
+    },
+    "rms_scaled0.8": {
+     "bias": -0.039036594331264496,
+     "std": 0.3858433961868286
+    },
+    "rms_scaled1.25": {
+     "bias": -0.04687919840216637,
+     "std": 0.4442159831523895
+    }
+   },
+   "agree_with_rms": {
+    "rms": 1.0,
+    "det": 0.35224,
+    "genie": 0.35224,
+    "none": 0.03278,
+    "rms_scaled0.8": 0.68295,
+    "rms_scaled1.25": 0.66764
+   },
+   "mean_abs_index_shift_vs_rms": {
+    "rms": 0.0,
+    "det": 0.8004,
+    "genie": 0.8004,
+    "none": 2.5229,
+    "rms_scaled0.8": 0.35564,
+    "rms_scaled1.25": 0.39137
+   }
+  },
+  {
+   "gap_db": 12.0,
+   "eb_total_db": 2.5,
+   "rho1": 0.6258516808276019,
+   "rho2": 0.09546675442131235,
+   "N": 100000,
+   "fer": {
+    "rms": 0.0494,
+    "det": 0.055,
+    "genie": 0.055,
+    "none": 0.1074,
+    "rms_scaled0.8": 0.04712,
+    "rms_scaled1.25": 0.05301,
+    "oracle": 0.03493,
+    "egc": 0.97831
+   },
+   "logratio": {
+    "rms": {
+     "bias": 0.01754198595881462,
+     "std": 0.441935271024704
+    },
+    "det": {
+     "bias": 0.13556021451950073,
+     "std": 0.45355457067489624
+    },
+    "genie": {
+     "bias": 0.13556021451950073,
+     "std": 0.45355457067489624
+    },
+    "none": {
+     "bias": 0.38736942410469055,
+     "std": 0.8046731352806091
+    },
+    "rms_scaled0.8": {
+     "bias": 0.010506820864975452,
+     "std": 0.42606624960899353
+    },
+    "rms_scaled1.25": {
+     "bias": 0.029254470020532608,
+     "std": 0.4661670923233032
+    }
+   },
+   "agree_with_rms": {
+    "rms": 1.0,
+    "det": 0.38948,
+    "genie": 0.38948,
+    "none": 0.16376,
+    "rms_scaled0.8": 0.68528,
+    "rms_scaled1.25": 0.68043
+   },
+   "mean_abs_index_shift_vs_rms": {
+    "rms": 0.0,
+    "det": 0.77144,
+    "genie": 0.77144,
+    "none": 2.41039,
+    "rms_scaled0.8": 0.36567,
+    "rms_scaled1.25": 0.38684
+   }
+  }
+ ]
+}

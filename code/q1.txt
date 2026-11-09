@@ -1,0 +1,25 @@
+Lechner Pacher Estimating channel parameters from the syndrome of a linear code
+Saeedi Banihashemi Performance of belief propagation for decoding LDPC codes in the presence of channel estimation error
+Richardson Urbanke The capacity of low-density parity-check codes under message-passing decoding
+Kschischang Frey Loeliger Factor graphs and the sum-product algorithm
+Chen Fossorier Near optimum universal belief propagation based decoding of low-density parity check codes
+Chen Dholakia Eleftheriou Fossorier Hu Reduced-complexity decoding of LDPC codes
+Xia Wu Blind identification of nonbinary LDPC codes using average LLR of syndrome a posteriori probability
+Pauluzzi Beaulieu A comparison of SNR estimation techniques for the AWGN channel
+Nachmani Marciano Lugosch Gross Burshtein Be'ery Deep learning methods for improved decoding of linear codes
+Dai Tan Yin Hou Learning to decode protograph LDPC codes
+Hagenauer Offer Papke Iterative decoding of binary block and convolutional codes
+Toto-Zarasoa Roumy Guillemot Maximum likelihood BSC parameter estimation for the Slepian-Wolf problem
+Bellili Methni Stephenne Affes Cramer-Rao bounds for code-aided SNR estimation turbo coded
+Cammerer Gruber Hoydis ten Brink Trainable communication systems concepts and prototype
+Buchberger Hager Pfister Schmalen Bruna Learned decimation for neural belief propagation decoders
+Nachmani Wolf Hyper-graph-network decoders for block codes
+Zhang Kschischang Gaussian approximation staircase codes Saeedi SNR mismatch irregular LDPC BIAWGN
+Gallager Low-density parity-check codes
+Chung Forney Richardson Urbanke On the design of low-density parity-check codes within 0.0045 dB of the Shannon limit
+Wang Wu Reduced complexity SNR estimation LDPC decoding min-sum scaling
+Gruber Cammerer Hoydis ten Brink On deep learning-based channel decoding
+Bennatan Choukroun Kisilev Deep learning for decoding of linear codes - a syndrome-based approach
+Choukroun Wolf Error correction code transformer
+Lugosch Gross Neural offset min-sum decoding
+Ma Ng Iterative noise variance estimation turbo

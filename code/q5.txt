@@ -1,0 +1,12 @@
+neural belief propagation decoding short codes generalization to unseen SNR IEEE 2021
+hybrid ARQ LDPC 5G NR chase combining LLR combining retransmission performance
+deep learning noise variance estimation OFDM receiver IEEE Transactions 2021
+neural decoder robust to channel mismatch noise level adaptation decoding linear block codes 2022
+LDPC min-sum decoding SNR estimation low complexity 5G NR IEEE 2020
+SNR estimation moment-based M2M4 BPSK coded
+learned receiver channel decoding LLR calibration miscalibrated soft output
+data-aided SNR estimation maximum likelihood BPSK Cramer-Rao bound short frames
+model-based neural decoder transformer error correction short codes IEEE 2023
+LLR scaling mismatch cross-entropy training decoder reliability deep learning 6G channel coding
+unsupervised noise estimation neural decoder adaptive to unknown SNR transformer decoder
+low-density parity-check codes for URLLC short block length performance min-sum IEEE 2021

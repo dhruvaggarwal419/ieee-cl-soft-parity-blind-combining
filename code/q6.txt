@@ -1,0 +1,10 @@
+SNR-adaptive neural LDPC decoder unknown noise level
+noise level estimation for iterative decoder from received codeword blind
+learning-based LLR combining hybrid ARQ retransmissions deep learning
+LLR scaling factor estimation LDPC min-sum neural network predicts scaling
+pilot-free SNR estimation coded frame LDPC IEEE Wireless Communications Letters
+diversity combining unknown noise variance blind maximal ratio combining estimation
+variance estimation of LLRs neural decoder generalization across SNR Hyper-graph
+Learning to decode Ising? neural decoders short codes TCOM 2022 weights SNR range training
+deep learning aided LDPC decoding unknown channel estimation error robust
+blind noise variance estimation using parity check equations BPSK

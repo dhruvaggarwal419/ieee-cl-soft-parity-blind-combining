@@ -1,0 +1,9 @@
+Chase Code combining a maximum-likelihood decoding approach for combining an arbitrary number of noisy packets
+Brennan Linear diversity combining techniques
+Caire Tuninetti The throughput of hybrid-ARQ protocols for the Gaussian collision channel
+Kim Boosted Neural Decoders Achieving Extreme Reliability of LDPC Codes for 6G Networks
+Jeong Kim Decoding of LDPC Codes Using Singularity of SNR Mismatch Over AWGN Channel
+Wiesmayr Cammerer Hoydis Hoffmann Sionna? 5G NR neural LDPC decoding
+Hoeffding Probability inequalities for sums of bounded random variables
+Wadayama Takabe Deep unfolding? Learned belief propagation decoding unknown noise variance
+Sun Zhang noise variance estimation LDPC min-sum decoder SNR estimation using syndromes IEEE Access

@@ -1,0 +1,127 @@
+{
+ "nf": 100000,
+ "A": [
+  {
+   "c": 1.0,
+   "err": {
+    "oracle": 14502,
+    "blind": 19922,
+    "egc": 61250
+   },
+   "logratio_err_mean": -0.046675316989421844,
+   "logratio_err_std": 0.4846157133579254
+  },
+  {
+   "c": 1.5,
+   "err": {
+    "oracle": 3687,
+    "blind": 5870,
+    "egc": 35421
+   },
+   "logratio_err_mean": -0.04095832630991936,
+   "logratio_err_std": 0.412164568901062
+  },
+  {
+   "c": 2.0,
+   "err": {
+    "oracle": 573,
+    "blind": 1064,
+    "egc": 14926
+   },
+   "logratio_err_mean": -0.035044893622398376,
+   "logratio_err_std": 0.35634416341781616
+  },
+  {
+   "c": 2.5,
+   "err": {
+    "oracle": 62,
+    "blind": 125,
+    "egc": 4220
+   },
+   "logratio_err_mean": -0.029461413621902466,
+   "logratio_err_std": 0.31564682722091675
+  },
+  {
+   "c": 3.0,
+   "err": {
+    "oracle": 11,
+    "blind": 16,
+    "egc": 837
+   },
+   "logratio_err_mean": -0.025021351873874664,
+   "logratio_err_std": 0.28634095191955566
+  },
+  {
+   "c": 3.5,
+   "err": {
+    "oracle": 1,
+    "blind": 0,
+    "egc": 103
+   },
+   "logratio_err_mean": -0.02414535917341709,
+   "logratio_err_std": 0.26880452036857605
+  }
+ ],
+ "B": [
+  {
+   "c": 1.5,
+   "err": {
+    "oracle": 2815,
+    "blind": 3509,
+    "egc": 3172
+   },
+   "logratio_err_mean": 0.0015329952584579587,
+   "logratio_err_std": 0.2621810734272003
+  },
+  {
+   "c": 2.0,
+   "err": {
+    "oracle": 1173,
+    "blind": 1535,
+    "egc": 1292
+   },
+   "logratio_err_mean": 0.0010441740741953254,
+   "logratio_err_std": 0.23637095093727112
+  },
+  {
+   "c": 2.5,
+   "err": {
+    "oracle": 348,
+    "blind": 529,
+    "egc": 378
+   },
+   "logratio_err_mean": -5.853537732036784e-05,
+   "logratio_err_std": 0.21967755258083344
+  },
+  {
+   "c": 3.0,
+   "err": {
+    "oracle": 89,
+    "blind": 151,
+    "egc": 99
+   },
+   "logratio_err_mean": -0.0002520887355785817,
+   "logratio_err_std": 0.2086358368396759
+  },
+  {
+   "c": 3.5,
+   "err": {
+    "oracle": 13,
+    "blind": 27,
+    "egc": 14
+   },
+   "logratio_err_mean": -8.487005106871948e-05,
+   "logratio_err_std": 0.2004932165145874
+  },
+  {
+   "c": 4.0,
+   "err": {
+    "oracle": 0,
+    "blind": 2,
+    "egc": 1
+   },
+   "logratio_err_mean": 0.00030937447445467114,
+   "logratio_err_std": 0.19466912746429443
+  }
+ ]
+}

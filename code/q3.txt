@@ -1,0 +1,15 @@
+Shlezinger Eldar Model-Based Deep Learning Proceedings of the IEEE 2023
+He Wen Jin Li Model-driven deep learning for MIMO detection
+Shirvanimoghaddam Short block-length codes for ultra-reliable low latency communications
+Polyanskiy Poor Verdu Channel coding rate in the finite blocklength regime
+Hanna Cruz? weighted belief propagation decoder LDPC learned SNR robust
+Lian Zhang? neural BP LDPC decoders generalization across SNR single set of weights
+Fossorier Mihaljevic Imai Reduced complexity iterative decoding of low-density parity check codes based on belief propagation
+Zhao Zhang Wang? normalized min-sum LDPC mismatch estimation SNR robust 2020
+Zhang Jiang? blind noise variance estimation deep learning decoders 2021 2022 IEEE
+Li Xu Zhang? LDPC decoding with unknown noise variance joint estimation and decoding belief propagation
+Samuel Diskin Wiesel Learning to detect
+Tonnellier Hashemi Gripon Gross Fast successive-cancellation? learning decoder short codes
+LDPC decoding SNR mismatch deep learning receiver robustness unknown noise level IEEE Communications Letters 2021
+Jin Wang unsupervised LLR estimation decoder BPSK AWGN unknown SNR EM
+Estimating noise power from LDPC parity check satisfaction rate of hard decisions

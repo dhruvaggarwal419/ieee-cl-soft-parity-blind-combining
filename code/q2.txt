@@ -1,0 +1,20 @@
+neural belief propagation decoder SNR mismatch generalization robust to noise variance
+deep learning based SNR estimation received signal convolutional neural network IEEE
+Richardson Kudekar Design of low-density parity check codes for 5G new radio
+Shlezinger Farsad Eldar Goldsmith Model-based deep learning
+Sionna an open-source library for next-generation physical layer research
+Graph neural networks for channel decoding Cammerer Hoydis Aoudia Keller
+Nachmani Wolf Autoregressive belief propagation for decoding block codes
+neural min-sum decoder 5G LDPC SNR mismatch trained at single SNR
+blind SNR estimation LDPC coded signals using decoder soft output iterative
+LLR calibration temperature scaling channel decoder mismatch
+LDPC decoder noise variance estimation error min-sum insensitive normalized offset 5G NR
+Adaptive normalized min-sum LDPC SNR dependent scaling factor
+Low-complexity SNR estimation for short LDPC codes parity check statistics
+Soft-syndrome code-aided noise variance estimation convolutional or LDPC iterative receiver
+He Li code-aided joint SNR estimation M-APSK LDPC syndrome
+Bellili closed-form Cramer-Rao bound SNR estimation code-aided turbo
+Learning-based decoders short block codes BCH deep learning transformer decoding 2023
+Hager Pfister Physics-based deep learning for fiber-optic communication systems
+Jiang Learn codes inventing channel coding neural TurboAE
+Kim Jiang Choi Kannan Oh Viswanath Communication algorithms via deep learning
